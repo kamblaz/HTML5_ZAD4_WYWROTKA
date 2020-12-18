@@ -108,29 +108,37 @@
       50% {
           /* transform: rotate(0); */
           bottom: 15vh;
-          left: 12vw;
+          left: 70vw;
       }
       100% {
           bottom: 15vh;
-          left: 12vw;
-          /* transform: rotate(90); */
+          left: 70vw;
+          /* transform: rotate(180); */
       }
   }
   
   @keyframes lowerTruckAnimation {
       0% {
-          transform: translate3d(0vw, 0vh, 0);
+          bottom: 14vh;
+          left: 2vw;
+          /* transform: translate3d(0vw, 0vh, 0); */
       }
       100% {
-          transform: translate3d(10vw, 1vh, 0);
+          bottom: 15vh;
+          left: 70vw;
+          /* transform: translate3d(10vw, 1vh, 0); */
       }
   }
   
   @keyframes wheelsAnimation {
       0% {
-          transform: translate3d(0vw, 0vh, 0);
+          bottom: 10vh;
+          left: 2vw;
+          /* transform: translate3d(0vw, 0vh, 0); */
       }
       100% {
-          transform: translate3d(10vw, 1vh, 0);
+          bottom: 11vh;
+          left: 70vw;
+          /* transform: translate3d(10vw, 1vh, 0); */
       }
   }
