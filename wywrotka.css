@@ -71,7 +71,15 @@
         position: relative;
     }
     
-    .truckAnimation {
+    .upperTruckAnimation {
+        width: 120vw;
+        height: 13vh;
+        position: absolute;
+        background-color: black;
+        animation: upperTruckAnimation 2s linear forwards;
+    }
+    
+    .lowerTruckAnimation {
         position: absolute;
         width: 20vw;
         height: 16vh;
@@ -102,5 +110,17 @@
         }
         100% {
             transform: translate3d(10vw, 1vh, 0);
+        }
+    }
+    
+    @keyframes upperTruckAnimation {
+        0% {
+            transform: rotateX(0);
+        }
+        50% {
+            transform: rotateX(0);
+        }
+        100% {
+            transform: rotateX(90);
         }
     }

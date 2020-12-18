@@ -6,13 +6,11 @@
 
 <body>
     <div>
-        <div id="truck" class="truck">
-            <div class="lowerTruck">
-            </div>
-            <div class="upperTruck">
-                <div class="cargoContainer">
-                    <div class="cargo"></div>
-                </div>
+        <div class="lowerTruck">
+        </div>
+        <div id="upperTruck" class="upperTruck">
+            <div class="cargoContainer">
+                <div class="cargo"></div>
             </div>
         </div>
         <div id="wheels" class="wheelsContainer">
@@ -26,6 +24,7 @@
     function moveme() {
         document.getElementById("truck").className = "truckAnimation";
         document.getElementById("wheels").className = "wheelsAnimation";
+        document.getElementById("upperTruck").className = "upperTruckAnimation";
     }
 </script>
 
