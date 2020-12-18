@@ -6,7 +6,7 @@
 
 <body>
     <div>
-        <div class="lowerTruck">
+        <div id="lowerTruck" class="lowerTruck">
         </div>
         <div id="upperTruck" class="upperTruck">
             <div class="cargo"></div>
@@ -20,7 +20,7 @@
 <button onclick='moveme();'>click me</button>
 <script>
     function moveme() {
-        document.getElementById("truck").className = "truckAnimation";
+        document.getElementById("lowerTruck").className = "lowerTruckAnimation";
         document.getElementById("wheels").className = "wheelsAnimation";
         document.getElementById("upperTruck").className = "upperTruckAnimation";
     }

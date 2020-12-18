@@ -5,6 +5,7 @@
       bottom: 0;
       left: 30%;
       background-color: red;
+      visibility: hidden;
       border-radius: 50%;
   }
   
@@ -72,19 +73,22 @@
   }
   
   .upperTruckAnimation {
-      width: 120vw;
+      width: 20vw;
       height: 13vh;
       position: absolute;
+      bottom: 17vh;
+      left: 2vw;
       background-color: black;
       animation: upperTruckAnimation 2s linear forwards;
   }
   
   .lowerTruckAnimation {
-      position: absolute;
       width: 20vw;
-      height: 16vh;
-      bottom: 10vh;
+      height: 3vh;
+      position: absolute;
+      bottom: 14vh;
       left: 2vw;
+      background-color: black;
       animation: lowerTruckAnimation 1s linear forwards;
   }
   
@@ -93,6 +97,24 @@
       bottom: 10vh;
       left: 2vw;
       animation: wheelsAnimation 1s linear forwards;
+  }
+  
+  @keyframes upperTruckAnimation {
+      0% {
+          /* transform: rotate(0); */
+          bottom: 14vh;
+          left: 2vw;
+      }
+      50% {
+          /* transform: rotate(0); */
+          bottom: 15vh;
+          left: 12vw;
+      }
+      100% {
+          bottom: 15vh;
+          left: 12vw;
+          /* transform: rotate(90); */
+      }
   }
   
   @keyframes lowerTruckAnimation {
@@ -110,17 +132,5 @@
       }
       100% {
           transform: translate3d(10vw, 1vh, 0);
-      }
-  }
-  
-  @keyframes upperTruckAnimation {
-      0% {
-          transform: rotateX(0);
-      }
-      50% {
-          transform: rotateX(0);
-      }
-      100% {
-          transform: rotateX(90);
       }
   }
