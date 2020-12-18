@@ -1,126 +1,126 @@
-    .cargoContainer {
-        position: absolute;
-        bottom: 28vh;
-        left: 12vw;
-    }
-    
-    .cargo {
-        position: absolute;
-        height: 25px;
-        width: 25px;
-        background-color: red;
-        border-radius: 50%;
-    }
-    
-    .truck {
-        position: absolute;
-        width: 20vw;
-        height: 16vh;
-        bottom: 10vh;
-        left: 2vw;
-    }
-    
-    .upperTruck {
-        width: 20vw;
-        height: 13vh;
-        position: absolute;
-        background-color: black;
-    }
-    
-    .lowerTruck {
-        width: 20vw;
-        height: 3vh;
-        position: absolute;
-        background-color: black;
-    }
-    
-    .wheelsContainer {
-        position: absolute;
-        bottom: 10vh;
-        left: 2vw;
-    }
-    
-    .leftWheel {
-        height: 6vh;
-        width: 6vh;
-        top: -6.5vh;
-        left: 1vw;
-        position: absolute;
-        background-color: black;
-        border-radius: 50%;
-    }
-    
-    .rightWheel {
-        height: 6vh;
-        width: 6vh;
-        top: -6.5vh;
-        left: 16vw;
-        position: absolute;
-        background-color: black;
-        border-radius: 50%;
-    }
-    
-    button {
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-    
-    .main {
-        display: inline-block;
-        position: relative;
-    }
-    
-    .upperTruckAnimation {
-        width: 120vw;
-        height: 13vh;
-        position: absolute;
-        background-color: black;
-        animation: upperTruckAnimation 2s linear forwards;
-    }
-    
-    .lowerTruckAnimation {
-        position: absolute;
-        width: 20vw;
-        height: 16vh;
-        bottom: 10vh;
-        left: 2vw;
-        animation: truckAnimation 1s linear forwards;
-    }
-    
-    .wheelsAnimation {
-        position: absolute;
-        bottom: 10vh;
-        left: 2vw;
-        animation: wheelsAnimation 1s linear forwards;
-    }
-    
-    @keyframes truckAnimation {
-        0% {
-            transform: translate3d(0vw, 0vh, 0);
-        }
-        100% {
-            transform: translate3d(10vw, 1vh, 0);
-        }
-    }
-    
-    @keyframes wheelsAnimation {
-        0% {
-            transform: translate3d(0vw, 0vh, 0);
-        }
-        100% {
-            transform: translate3d(10vw, 1vh, 0);
-        }
-    }
-    
-    @keyframes upperTruckAnimation {
-        0% {
-            transform: rotateX(0);
-        }
-        50% {
-            transform: rotateX(0);
-        }
-        100% {
-            transform: rotateX(90);
-        }
-    }
+  .cargo {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      bottom: 0;
+      left: 30%;
+      background-color: red;
+      border-radius: 50%;
+  }
+  
+  .truck {
+      position: absolute;
+      width: 20vw;
+      height: 16vh;
+      bottom: 10vh;
+      left: 2vw;
+  }
+  
+  .upperTruck {
+      width: 20vw;
+      height: 13vh;
+      position: absolute;
+      bottom: 17vh;
+      left: 2vw;
+      background-color: black;
+  }
+  
+  .lowerTruck {
+      width: 20vw;
+      height: 3vh;
+      position: absolute;
+      bottom: 14vh;
+      left: 2vw;
+      background-color: black;
+  }
+  
+  .wheelsContainer {
+      position: absolute;
+      bottom: 10vh;
+      left: 2vw;
+  }
+  
+  .leftWheel {
+      height: 6vh;
+      width: 6vh;
+      top: -6.5vh;
+      left: 1vw;
+      position: absolute;
+      background-color: black;
+      border-radius: 50%;
+  }
+  
+  .rightWheel {
+      height: 6vh;
+      width: 6vh;
+      top: -6.5vh;
+      left: 16vw;
+      position: absolute;
+      background-color: black;
+      border-radius: 50%;
+  }
+  
+  button {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  
+  .main {
+      display: inline-block;
+      position: relative;
+  }
+  
+  .upperTruckAnimation {
+      width: 120vw;
+      height: 13vh;
+      position: absolute;
+      background-color: black;
+      animation: upperTruckAnimation 2s linear forwards;
+  }
+  
+  .lowerTruckAnimation {
+      position: absolute;
+      width: 20vw;
+      height: 16vh;
+      bottom: 10vh;
+      left: 2vw;
+      animation: lowerTruckAnimation 1s linear forwards;
+  }
+  
+  .wheelsAnimation {
+      position: absolute;
+      bottom: 10vh;
+      left: 2vw;
+      animation: wheelsAnimation 1s linear forwards;
+  }
+  
+  @keyframes lowerTruckAnimation {
+      0% {
+          transform: translate3d(0vw, 0vh, 0);
+      }
+      100% {
+          transform: translate3d(10vw, 1vh, 0);
+      }
+  }
+  
+  @keyframes wheelsAnimation {
+      0% {
+          transform: translate3d(0vw, 0vh, 0);
+      }
+      100% {
+          transform: translate3d(10vw, 1vh, 0);
+      }
+  }
+  
+  @keyframes upperTruckAnimation {
+      0% {
+          transform: rotateX(0);
+      }
+      50% {
+          transform: rotateX(0);
+      }
+      100% {
+          transform: rotateX(90);
+      }
+  }
