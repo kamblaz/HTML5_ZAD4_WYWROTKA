@@ -1,116 +1,78 @@
-.cargoContainer {
-    position: absolute;
-    bottom: 28vh;
-    left: 12vw;
-}
-
-.cargo {
-    height: 25px;
-    width: 25px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-.truck {
-    position: absolute;
-    width: 20vw;
-    height: 16vh;
-    bottom: 10vh;
-}
-
-.upperTruck {
-    width: 20vw;
-    height: 12vh;
-    position: absolute;
-    background-color: black;
-}
-
-.lowerTruck {
-    width: 20vw;
-    height: 12vh;
-    position: absolute;
-    background-color: black;
-}
-
-.wheelsContainer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.leftWheel {
-    height: 6vh;
-    width: 6vh;
-    top: -6.5vh;
-    left: 1vw;
-    position: absolute;
-    background-color: black;
-    border-radius: 50%;
-}
-
-.rightWheel {
-    height: 6vh;
-    width: 6vh;
-    top: -6.5vh;
-    left: 16vw;
-    position: absolute;
-    background-color: black;
-    border-radius: 50%;
-}
-
-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.main {
-    display: inline-block;
-    position: relative;
-}
-
-.ballAnimation {
-    left: 12vw;
-    position: absolute;
-    bottom: 28vh;
-    animation: ballAnimation 0.4s linear forwards;
-    -o-animation: ballAnimation 0.4s linear forwards;
-    -moz-animation: ballAnimation 0.4s linear forwards;
-    -webkit-animation: ballAnimation 0.4s linear forwards;
-}
-
-.stickAnimation {
-    position: absolute;
-    animation: stickAnimation 0.2s linear forwards;
-    -o-animation: stickAnimation 0.2s linear forwards;
-    -moz-animation: stickAnimation 0.2s linear forwards;
-    -webkit-animation: stickAnimation 0.2s linear forwards;
-}
-
-@keyframes ballAnimation {
-    0% {
-        transform: translate3d(0vw, 0vh, 0);
+    .cargoContainer {
+        position: absolute;
+        bottom: 28vh;
+        left: 12vw;
     }
-    40% {
-        transform: translate3d(57vw, 3vh, 0);
+    
+    .cargo {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        background-color: red;
+        border-radius: 50%;
     }
-    100% {
-        transform: translate3d(-50vw, -300vh, 0);
-        animation-timing-function: ease-in alternate;
+    
+    .truck {
+        position: absolute;
+        width: 20vw;
+        height: 16vh;
+        bottom: 10vh;
+        left: 2vw;
     }
-}
-
-@keyframes stickAnimation {
-    0% {
-        transform: rotate(0deg);
+    
+    .upperTruck {
+        width: 20vw;
+        height: 12vh;
+        position: absolute;
+        background-color: black;
     }
-    20% {
-        transform: rotate(-15deg);
+    
+    .lowerTruck {
+        width: 20vw;
+        height: 8vh;
+        position: absolute;
+        background-color: black;
     }
-    80% {
-        transform: rotate(60deg);
+    
+    .wheelsContainer {
+        position: absolute;
+        bottom: 0;
     }
-    100% {
-        transform: rotate(75deg);
+    
+    .leftWheel {
+        height: 6vh;
+        width: 6vh;
+        top: -6.5vh;
+        left: 1vw;
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
     }
-}
+    
+    .rightWheel {
+        height: 6vh;
+        width: 6vh;
+        top: -6.5vh;
+        left: 16vw;
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .main {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .truckAnimation {
+        position: absolute;
+        bottom: 10vh;
+        left: 2vw;
+        /*animation: truckAnimation 5s linear forwards;*/
+    }

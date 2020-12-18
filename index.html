@@ -6,16 +6,17 @@
 
 <body>
     <div>
-        <div class="truck">
-            <div class="lowerTruck"></div>
+        <div id="truck" class="truck">
+            <div class="lowerTruck">
+                <div class="wheelsContainer">
+                    <div class="leftWheel"></div>
+                    <div class="rightWheel"></div>
+                </div>
+            </div>
             <div class="upperTruck">
                 <div class="cargoContainer">
                     <div class="cargo"></div>
                 </div>
-            </div>
-            <div class="wheelsContainer">
-                <div class="leftWheel"></div>
-                <div class="rightWheel"></div>
             </div>
         </div>
     </div>
@@ -23,8 +24,7 @@
 <button onclick='moveme();'>click me</button>
 <script>
     function moveme() {
-        document.getElementById("ballContainer").className = "ballAnimation";
-        document.getElementById("stickContainer").className = "stickAnimation";
+        document.getElementById("truck").className = "truckAnimation";
     }
 </script>
 
