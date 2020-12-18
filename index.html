@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="palant.css">
+</head>
+
+<body>
+    <div>
+        <div class="leftHuman"></div>
+        <div class="rightHuman">
+            <div id="stickContainer" class="stickContainer">
+                <div class="stick"></div>
+            </div>
+        </div>
+        <div id="ballContainer" class="ballContainer">
+            <div class="ball"></div>
+        </div>
+    </div>
+</body>
+<button onclick='moveme();'>click me</button>
+<script>
+    function moveme() {
+        document.getElementById("ballContainer").className = "ballAnimation";
+        document.getElementById("stickContainer").className = "stickAnimation";
+    }
+</script>
+
+</html>
