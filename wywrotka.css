@@ -73,14 +73,34 @@
     
     .truckAnimation {
         position: absolute;
+        width: 20vw;
+        height: 16vh;
         bottom: 10vh;
         left: 2vw;
-        /*animation: truckAnimation 5s linear forwards;*/
+        animation: truckAnimation 1s linear forwards;
     }
     
     .wheelsAnimation {
         position: absolute;
         bottom: 10vh;
         left: 2vw;
-        /*animation: truckAnimation 5s linear forwards;*/
+        animation: wheelsAnimation 1s linear forwards;
+    }
+    
+    @keyframes truckAnimation {
+        0% {
+            transform: translate3d(0vw, 0vh, 0);
+        }
+        100% {
+            transform: translate3d(10vw, 1vh, 0);
+        }
+    }
+    
+    @keyframes wheelsAnimation {
+        0% {
+            transform: translate3d(0vw, 0vh, 0);
+        }
+        100% {
+            transform: translate3d(10vw, 1vh, 0);
+        }
     }
