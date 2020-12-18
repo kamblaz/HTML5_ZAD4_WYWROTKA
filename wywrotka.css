@@ -105,14 +105,19 @@
           bottom: 14vh;
           left: 2vw;
       }
-      50% {
+      25% {
           /* transform: rotate(0); */
           bottom: 15vh;
           left: 70vw;
       }
+      50% {
+          /* transform: rotate(0); */
+          bottom: 70vh;
+          left: 16vw;
+      }
       100% {
-          bottom: 15vh;
-          left: 70vw;
+          bottom: 70vh;
+          left: 16vw;
           /* transform: rotate(180); */
       }
   }
@@ -123,9 +128,14 @@
           left: 2vw;
           /* transform: translate3d(0vw, 0vh, 0); */
       }
-      100% {
+      50% {
           bottom: 15vh;
           left: 70vw;
+          /* transform: translate3d(10vw, 1vh, 0); */
+      }
+      100% {
+          bottom: 70vh;
+          left: 16vw;
           /* transform: translate3d(10vw, 1vh, 0); */
       }
   }
@@ -136,9 +146,14 @@
           left: 2vw;
           /* transform: translate3d(0vw, 0vh, 0); */
       }
-      100% {
+      50% {
           bottom: 11vh;
           left: 70vw;
+          /* transform: translate3d(0vw, 0vh, 0); */
+      }
+      100% {
+          bottom: 66vh;
+          left: 16vw;
           /* transform: translate3d(10vw, 1vh, 0); */
       }
   }
