@@ -4,6 +4,12 @@
     left: 12vw;
 }
 
+.wheelsContainer {
+    position: absolute;
+    bottom: 28vh;
+    left: 12vw;
+}
+
 .cargo {
     height: 25px;
     width: 25px;
@@ -16,26 +22,23 @@
 }
 
 .upperTruck {
-    width: 1vw;
-    height: 25vh;
+    width: 24vw;
+    height: 12vh;
     position: absolute;
-    top: 18vh;
-    left: 2vw;
     background-color: black;
 }
 
 .lowerTruck {
-    width: 1vw;
-    height: 25vh;
+    width: 24vw;
+    height: 12vh;
     position: absolute;
-    top: 18vh;
-    left: 2vw;
     background-color: black;
 }
 
 .leftWheel {
     height: 25px;
     width: 25px;
+    position: absolute;
     background-color: black;
     border-radius: 50%;
 }
@@ -43,6 +46,7 @@
 .rightWheel {
     height: 25px;
     width: 25px;
+    position: absolute;
     background-color: black;
     border-radius: 50%;
 }
