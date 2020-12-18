@@ -22,21 +22,22 @@
     
     .upperTruck {
         width: 20vw;
-        height: 12vh;
+        height: 13vh;
         position: absolute;
         background-color: black;
     }
     
     .lowerTruck {
         width: 20vw;
-        height: 8vh;
+        height: 3vh;
         position: absolute;
         background-color: black;
     }
     
     .wheelsContainer {
         position: absolute;
-        bottom: 0;
+        bottom: 10vh;
+        left: 2vw;
     }
     
     .leftWheel {
@@ -71,6 +72,13 @@
     }
     
     .truckAnimation {
+        position: absolute;
+        bottom: 10vh;
+        left: 2vw;
+        /*animation: truckAnimation 5s linear forwards;*/
+    }
+    
+    .wheelsAnimation {
         position: absolute;
         bottom: 10vh;
         left: 2vw;
