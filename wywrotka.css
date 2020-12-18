@@ -101,24 +101,24 @@
   
   @keyframes upperTruckAnimation {
       0% {
-          /* transform: rotate(0); */
+          transform: rotate(0deg);
           bottom: 14vh;
           left: 2vw;
       }
       25% {
-          /* transform: rotate(0); */
+          transform: rotate(0deg);
           bottom: 15vh;
           left: 70vw;
       }
       50% {
-          /* transform: rotate(0); */
+          transform: rotate(0deg);
           bottom: 70vh;
           left: 16vw;
       }
       100% {
           bottom: 70vh;
           left: 16vw;
-          /* transform: rotate(180); */
+          transform: rotate(-90deg);
       }
   }
   
