@@ -13,19 +13,20 @@
 
 .truck {
     position: absolute;
-    width: 24vw;
+    width: 20vw;
     height: 16vh;
+    bottom: 10vh;
 }
 
 .upperTruck {
-    width: 24vw;
+    width: 20vw;
     height: 12vh;
     position: absolute;
     background-color: black;
 }
 
 .lowerTruck {
-    width: 24vw;
+    width: 20vw;
     height: 12vh;
     position: absolute;
     background-color: black;
@@ -40,6 +41,8 @@
 .leftWheel {
     height: 6vh;
     width: 6vh;
+    top: -6.5vh;
+    left: 1vw;
     position: absolute;
     background-color: black;
     border-radius: 50%;
@@ -48,6 +51,8 @@
 .rightWheel {
     height: 6vh;
     width: 6vh;
+    top: -6.5vh;
+    left: 16vw;
     position: absolute;
     background-color: black;
     border-radius: 50%;
