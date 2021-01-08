@@ -112,14 +112,14 @@
       }
       50% {
           transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 70vh;
+          bottom: 65vh;
           left: 16vw;
       }
       100% {
-          bottom: 70vh;
-          left: 16vw;
-          transform-origin: bottom left;
-          transform: rotate3d(0, 0, 1, -75deg);
+          bottom: 64vh;
+          left: 15vw;
+          transform-origin: -1vh 4vw;
+          transform: rotate3d(0, 0, 1, -60deg);
       }
   }
   
@@ -135,7 +135,7 @@
           /* transform: translate3d(10vw, 1vh, 0); */
       }
       100% {
-          bottom: 70vh;
+          bottom: 65vh;
           left: 16vw;
           /* transform: translate3d(10vw, 1vh, 0); */
       }
@@ -153,7 +153,7 @@
           /* transform: translate3d(0vw, 0vh, 0); */
       }
       100% {
-          bottom: 66vh;
+          bottom: 61vh;
           left: 16vw;
           /* transform: translate3d(10vw, 1vh, 0); */
       }
