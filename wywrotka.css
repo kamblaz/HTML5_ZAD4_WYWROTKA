@@ -10,21 +10,13 @@
       border-radius: 50%;
   }
   
-  .truck {
-      position: absolute;
-      width: 20vw;
-      height: 16vh;
-      bottom: 10vh;
-      left: 2vw;
-  }
-  
   .upperTruck {
       width: 20vw;
       height: 13vh;
       position: absolute;
       bottom: 17vh;
       left: 2vw;
-      z-index: 10;
+      z-index: initial;
       background-color: black;
   }
   
@@ -76,11 +68,11 @@
   
   .upperTruckAnimation {
       width: 20vw;
-      height: 13vh;
+      height: 17vh;
       position: absolute;
       bottom: 17vh;
       left: 2vw;
-      z-index: 1;
+      z-index: 10;
       background-color: black;
       animation: upperTruckAnimation 4s linear forwards;
   }
@@ -109,7 +101,7 @@
       bottom: 0;
       left: 30%;
       background-color: red;
-      z-index: 5;
+      z-index: -1;
       visibility: visible;
       border-radius: 50%;
       animation: cargoAnimation 4s linear forwards;
