@@ -5,6 +5,7 @@
       bottom: 0;
       left: 30%;
       background-color: red;
+      z-index: -1;
       visibility: visible;
       border-radius: 50%;
   }
@@ -23,6 +24,7 @@
       position: absolute;
       bottom: 17vh;
       left: 2vw;
+      z-index: 10;
       background-color: black;
   }
   
@@ -78,6 +80,7 @@
       position: absolute;
       bottom: 17vh;
       left: 2vw;
+      z-index: 1;
       background-color: black;
       animation: upperTruckAnimation 4s linear forwards;
   }
@@ -106,6 +109,7 @@
       bottom: 0;
       left: 30%;
       background-color: red;
+      z-index: 5;
       visibility: visible;
       border-radius: 50%;
       animation: cargoAnimation 4s linear forwards;
