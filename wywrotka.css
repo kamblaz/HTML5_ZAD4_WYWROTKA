@@ -79,7 +79,7 @@
       bottom: 17vh;
       left: 2vw;
       background-color: black;
-      animation: upperTruckAnimation 2s linear forwards;
+      animation: upperTruckAnimation 4s linear forwards;
   }
   
   .lowerTruckAnimation {
@@ -89,14 +89,14 @@
       bottom: 14vh;
       left: 2vw;
       background-color: black;
-      animation: lowerTruckAnimation 1s linear forwards;
+      animation: lowerTruckAnimation 2s linear forwards;
   }
   
   .wheelsAnimation {
       position: absolute;
       bottom: 10vh;
       left: 2vw;
-      animation: wheelsAnimation 1s linear forwards;
+      animation: wheelsAnimation 2s linear forwards;
   }
   
   @keyframes upperTruckAnimation {
@@ -118,7 +118,8 @@
       100% {
           bottom: 70vh;
           left: 16vw;
-          transform: rotate3d(0, 0, 1, -90deg);
+          transform-origin: bottom left;
+          transform: rotate3d(0, 0, 1, -75deg);
       }
   }
   
