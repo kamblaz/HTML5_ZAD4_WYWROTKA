@@ -5,7 +5,7 @@
       bottom: 0;
       left: 30%;
       background-color: red;
-      visibility: hidden;
+      visibility: visible;
       border-radius: 50%;
   }
   
@@ -99,7 +99,43 @@
       animation: wheelsAnimation 2s linear forwards;
   }
   
+  .cargoAnimation {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      bottom: 0;
+      left: 30%;
+      background-color: red;
+      visibility: visible;
+      border-radius: 50%;
+      animation: cargoAnimation 4s linear forwards;
+  }
+  
   @keyframes upperTruckAnimation {
+      0% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 14vh;
+          left: 2vw;
+      }
+      25% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 15vh;
+          left: 70vw;
+      }
+      50% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 65vh;
+          left: 16vw;
+      }
+      100% {
+          bottom: 64vh;
+          left: 15vw;
+          transform-origin: -1vh 4vw;
+          transform: rotate3d(0, 0, 1, -60deg);
+      }
+  }
+  
+  @keyframes cargoAnimation {
       0% {
           transform: rotate3d(0, 0, 0, 0deg);
           bottom: 14vh;
