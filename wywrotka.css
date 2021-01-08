@@ -3,7 +3,7 @@
       height: 50px;
       width: 50px;
       bottom: 0;
-      left: 30%;
+      left: 50%;
       background-color: red;
       z-index: 2;
       visibility: visible;
@@ -98,7 +98,7 @@
       height: 50px;
       width: 50px;
       bottom: 0;
-      left: 30%;
+      left: 50%;
       background-color: red;
       z-index: 2;
       visibility: visible;
@@ -155,10 +155,10 @@
           transform: translate3d(0px, 0px, 0px);
       }
       50% {
-          transform: translate3d(-30px, 30px, 30px);
+          transform: translate3d(0px, 0, 0);
       }
       100% {
-          transform: translate3d(-50px, 50px, 50px);
+          transform: translate3d(-250px, -150px, 0);
       }
   }
   
