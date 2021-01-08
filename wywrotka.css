@@ -68,7 +68,7 @@
   
   .upperTruckAnimation {
       width: 20vw;
-      height: 17vh;
+      height: 13vh;
       position: absolute;
       bottom: 17vh;
       left: 2vw;
@@ -110,41 +110,17 @@
   @keyframes upperTruckAnimation {
       0% {
           transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 14vh;
+          bottom: 17vh;
           left: 2vw;
       }
       25% {
           transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 15vh;
+          bottom: 18vh;
           left: 70vw;
       }
       50% {
           transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 65vh;
-          left: 16vw;
-      }
-      100% {
-          bottom: 64vh;
-          left: 15vw;
-          transform-origin: -1vh 4vw;
-          transform: rotate3d(0, 0, 1, -60deg);
-      }
-  }
-  
-  @keyframes cargoAnimation {
-      0% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 14vh;
-          left: 2vw;
-      }
-      25% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 15vh;
-          left: 70vw;
-      }
-      50% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 65vh;
+          bottom: 68vh;
           left: 16vw;
       }
       100% {
@@ -170,6 +146,30 @@
           bottom: 65vh;
           left: 16vw;
           /* transform: translate3d(10vw, 1vh, 0); */
+      }
+  }
+  
+  @keyframes cargoAnimation {
+      0% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 14vh;
+          left: 2vw;
+      }
+      25% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 15vh;
+          left: 70vw;
+      }
+      50% {
+          transform: rotate3d(0, 0, 0, 0deg);
+          bottom: 65vh;
+          left: 16vw;
+      }
+      100% {
+          bottom: 64vh;
+          left: 15vw;
+          transform-origin: -1vh 4vw;
+          transform: rotate3d(0, 0, 1, -60deg);
       }
   }
   
