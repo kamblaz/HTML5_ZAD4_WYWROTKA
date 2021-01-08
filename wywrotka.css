@@ -102,7 +102,6 @@
       background-color: red;
       z-index: 2;
       visibility: visible;
-      border-radius: 50%;
       animation: cargoAnimation 4s linear forwards;
   }
   
@@ -150,25 +149,16 @@
   
   @keyframes cargoAnimation {
       0% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 14vh;
-          left: 2vw;
+          transform: translate3d(0px, 0px, 0px);
       }
       25% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 15vh;
-          left: 70vw;
+          transform: translate3d(0px, 0px, 0px);
       }
       50% {
-          transform: rotate3d(0, 0, 0, 0deg);
-          bottom: 65vh;
-          left: 16vw;
+          transform: translate3d(-30px, 30px, 30px);
       }
       100% {
-          bottom: 64vh;
-          left: 15vw;
-          transform-origin: -1vh 4vw;
-          transform: rotate3d(0, 0, 1, -60deg);
+          transform: translate3d(-50px, 50px, 50px);
       }
   }
   
